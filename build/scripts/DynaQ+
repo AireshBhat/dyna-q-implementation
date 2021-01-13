@@ -180,6 +180,6 @@ save () {
 APP_ARGS=`save "$@"`
 
 # Collect all arguments for the java command, following the shell quoting and substitution rules
-eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $DYNA_Q_OPTS -classpath "\"$CLASSPATH\"" oops.project.Main "$APP_ARGS"
+eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $DYNA_Q_OPTS -classpath "\"$CLASSPATH\"" dynaq.DynaQ "$APP_ARGS"
 
 exec "$JAVACMD" "$@"

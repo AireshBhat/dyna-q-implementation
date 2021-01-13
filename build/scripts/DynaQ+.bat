@@ -71,7 +71,7 @@ set CLASSPATH=%APP_HOME%\lib\DynaQ+-1.0.0.jar;%APP_HOME%\lib\opencsv-4.3.2.jar;%
 
 
 @rem Execute DynaQ+
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %DYNA_Q_OPTS%  -classpath "%CLASSPATH%" oops.project.Main %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %DYNA_Q_OPTS%  -classpath "%CLASSPATH%" dynaq.DynaQ %*
 
 :end
 @rem End local scope for the variables with windows NT shell

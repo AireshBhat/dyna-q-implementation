@@ -25,3 +25,13 @@
 3 - Post the article 
 
 4 - Post the task 
+
+## How to compile
+
+* Download and Install [Gradle][1]
+* From the root folder run the following commands
+    1.`gradle build`
+    2.`gradle run`
+    
+    
+[1]: https://gradle.org/install/
